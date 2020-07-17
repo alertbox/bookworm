@@ -21,6 +21,7 @@
   color: $hljs-keyword;
 }
 
+.highlight .n,
 .highlight .na,
 .highlight .nb,
 .highlight .nc,
@@ -35,6 +36,7 @@
   color: $hljs-name;
 }
 
+.highlight .mf,
 .highlight .mi,
 .highlight .il {
   color: $hljs-number;
@@ -71,7 +73,8 @@
   color: $hljs-type;
 }
 
-.highlight .o {
+.highlight .o,
+.highlight .nt {
   color: $hljs-tag;
   font-weight: normal;
 }
