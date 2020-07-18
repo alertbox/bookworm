@@ -86,5 +86,6 @@ exclude:
   - vendor
   - bookworm.gemspec
   - '*.gem'
+  - '*.sh'
 include:
   - _pages
