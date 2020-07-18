@@ -1,13 +1,13 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "pixyll"
-  spec.version       = "3.0.0"
-  spec.authors       = ["John Otander"]
-  spec.email         = ["johnotander@gmail.com"]
+  spec.name          = "bookworm"
+  spec.version       = "1.0.0"
+  spec.authors       = ["Kosala Nuwan Perera"]
+  spec.email         = ["kosala.nuwan@gmail.com"]
 
-  spec.summary       = %q{A simple, beautiful Jekyll theme that's mobile first.}
-  spec.homepage      = "http://pixyll.com"
+  spec.summary       = %q{Theme for books and creative writing that emphasizes content rather than aesthetic fluff.}
+  spec.homepage      = "http://kosalanuwan.github.io/bookworm"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
@@ -17,7 +17,6 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_runtime_dependency "jekyll", "~> 3.3"
-  spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
   spec.add_development_dependency "bundler", ">= 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
 

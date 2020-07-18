@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-var CACHE_NAME = "pixyll2";
+var CACHE_NAME = "{{ site.title | downcase | replace: '"', '\"' }}";
 
 self.addEventListener("install", function(e) {
   e.waitUntil(
