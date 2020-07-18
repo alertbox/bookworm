@@ -83,6 +83,7 @@ exclude:
   - Rakefile
   - README.md
   - screenshot.png
+  - robots.txt
   - vendor
   - bookworm.gemspec
   - '*.gem'
