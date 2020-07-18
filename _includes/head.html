@@ -20,7 +20,7 @@
     {% else %}<meta name="robots" content="all">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
     {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}
-    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="canonical" href="{{ page.url | relative_url }}">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.title }}" href="{{ "/feed.xml" | relative_url }}" />
 
     <!-- Custom CSS -->
