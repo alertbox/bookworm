@@ -1,4 +1,4 @@
-name: Build and deploy Jekyll site to GitHub Pages
+name: Publish
 
 on:
   push:
@@ -15,5 +15,3 @@ jobs:
           enable_jekyll: true
           personal_token: ${{ secrets.JEKYLL_PAT }}
           publish_dir: ./_site
-        # env:
-        #   JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
