@@ -14,4 +14,4 @@ jobs:
         with:
           enable_jekyll: true
           personal_token: ${{ secrets.JEKYLL_PAT }}
-          publish_dir: ./_site
+          publish_dir: ./
