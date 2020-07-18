@@ -59,7 +59,7 @@ cd bookworm
 ./preview.sh -n bookworm-preview -p 8004 -v latest
 ```
 
-Then, you launch your favorite browser and visit <https://localhost:8004>.
+Then, you launch your favorite browser and visit <https://localhost:8004/bookworm>.
 
 ### Troubleshooting
 
