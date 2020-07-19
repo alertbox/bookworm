@@ -14,7 +14,7 @@ layout: default
       	  </p>
           <a href="{{ chapter.url | relative_url }}" class="post-link"><h2 class="post-title caps">{{ chapter.title }}</h2></a>
           <span class="post-summary justify">
-            {{ chapter.scene | default: chapter.summary | default: chapter.excerpt }}
+            {{ chapter.scene | default: chapter.excerpt }}
           </span>
         </div>
       {% endfor %}
