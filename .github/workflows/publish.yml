@@ -15,7 +15,7 @@ jobs:
         uses: ./github/workflows/build@master
 
       - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@master
+        uses: peaceiris/actions-gh-pages@main
         with:
           # keep_files: true
           enable_jekyll: true
