@@ -1,5 +1,8 @@
 # Bookworm
 
+![Build](https://github.com/kosalanuwan/bookworm/workflows/Build/badge.svg)
+![Publish](https://github.com/kosalanuwan/bookworm/workflows/Publish/badge.svg)
+
 [Bookworm](https://kosalanuwan.github.io/bookworm) is pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices. It is a delightfully lightweight, mobile first, and fluidly responsive Jekyll theme for books and creative writing that emphasizes content rather than aesthetic fluff.
 
 Originally, it was a duplicate of [Pixyll](https://github.com/johno/pixyll) crafted with :heart:. This repo is also a GitHub Page Template. Check out [the GitHub's Template Repositories](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
