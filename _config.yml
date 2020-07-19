@@ -13,7 +13,7 @@ author:
   name: "Kosala Nuwan Perera"
   avatar: "https://avatars1.githubusercontent.com/u/958227?s=460&u=9b166f138e17fd8a8a60177dbbaa79deff890ac6&v=4"
   email: kosala.nuwan@gmail.com
-  # Social icons
+  # Social
   github_username: kosalanuwan
   twitter_handler: kosalanuwan
   linkedin_username: kosalanuwan
@@ -32,14 +32,14 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: page
+      layout: single
   
   # _chapters
   - scope: 
       path: ""
       type: chapters
     values:
-      layout: post
+      layout: chapter
 
 # Optional features
 animated: false
@@ -55,7 +55,7 @@ google_tag_manager:
 # Bing services
 bing_verification:
 
-# Disqus post comments
+# Disqus book comments
 # (leave blank to disable Disqus)
 disqus_shortname:
 
@@ -66,7 +66,6 @@ text:
   index:
     title: "Chapters"
     coming_soon: "A work in-progress..."
-  og_locale: "en_US"
 
 # Build settings
 markdown:     kramdown
