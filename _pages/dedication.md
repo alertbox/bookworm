@@ -3,4 +3,4 @@ title: Dedication
 permalink: /dedication/
 ---
 
-__Example__: Based on the characters appearing in the comic books published by Marvel and DC comics and a couple of TV shows. Oh, by the way, this has vivid graphics that are darker than Nolan’s version and no one, seriously, no one wears spandex.
+__Hint__: If you've got people to thank, those who've helped you along the way, feel free to drop those here. You can make it short and sweet, or write a lengthy dedication, with more details and insight into you and why you're dedicating this book to those who assist you.
