@@ -80,6 +80,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - Rakefile
+  - CONTRIBUTING.md
+  - CODE_OF_CONDUCT.md
   - README.md
   - screenshot.png
   - robots.txt
