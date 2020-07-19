@@ -11,13 +11,26 @@ jobs:
     runs-on: ubuntu-latest
   
     steps:
-      - name: Build
-        uses: ./github/workflows/build@master
+      - name: Checkout
+        uses: actions/checkout@master
 
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@main
+      - name: Cache
+        uses: actions/cache@master
         with:
-          # keep_files: true
-          enable_jekyll: true
-          personal_token: ${{ secrets.JEKYLL_PAT }}
-          publish_dir: ./_site
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - uses: helaili/jekyll-action@2.0.2
+        env:
+          # Ideally use GITHUB_TOKEN but it gives error for this action.
+          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+
+      # - name: Deploy to gh-pages
+      #   uses: peaceiris/actions-gh-pages@main
+      #   with:
+      #     # keep_files: true
+      #     enable_jekyll: true
+      #     personal_token: ${{ secrets.JEKYLL_PAT }}
+      #     publish_dir: ./_site
