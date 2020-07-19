@@ -22,15 +22,30 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
 
-      - uses: helaili/jekyll-action@2.0.2
-        env:
-          # Ideally use GITHUB_TOKEN but it gives error for this action.
-          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+      # - uses: helaili/jekyll-action@2.0.2
+      #   env:
+      #     # Ideally use GITHUB_TOKEN but it gives error for this action.
+      #     JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
 
-      # - name: Deploy to gh-pages
-      #   uses: peaceiris/actions-gh-pages@main
-      #   with:
-      #     # keep_files: true
-      #     enable_jekyll: true
-      #     personal_token: ${{ secrets.JEKYLL_PAT }}
-      #     publish_dir: ./_site
+      - name: Set up Ruby 2.6.x
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6.x
+        run: |
+              bundle config path vendor/bundle
+              bundle install --jobs 4 --retry 3
+              bundle exec jekyll build
+
+      # - name: Build with Jekyll
+      #   run: |
+      #     bundle config path vendor/bundle
+      #     bundle install --jobs 4 --retry 3
+      #     bundle exec jekyll build
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@main
+        with:
+          # keep_files: true
+          enable_jekyll: true
+          personal_token: ${{ secrets.JEKYLL_PAT }}
+          publish_dir: ./_site
