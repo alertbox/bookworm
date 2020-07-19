@@ -32,11 +32,11 @@ jobs:
         with:
           ruby-version: 2.6.x
 
-      # - name: Build with Jekyll
-      #   run: |
-      #     bundle config path vendor/bundle
-      #     bundle install --jobs 4 --retry 3
-      #     bundle exec jekyll build
+      - name: Build with Jekyll
+        run: |
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
+          bundle exec jekyll build
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
