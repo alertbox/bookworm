@@ -3,7 +3,7 @@ locale: "en-US"
 title: Bookworm
 description: "Jekyll theme for books and creative writing that emphasizes content rather than aesthetic fluff."
 baseurl: "/bookworm"
-url: "http://kosalanuwan.github.io/bookworm"
+url: "http://kosalanuwan.github.io"
 bugs: "https://github.com/kosalanuwan/bookworm/issues/new?assignees=&labels=&template=bug_report.md&title="
 repository: "/bookworm"
 date_format: "%b %-d, %Y"
