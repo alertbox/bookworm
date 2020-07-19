@@ -1,0 +1,22 @@
+{
+  "short_name": "Bookworm",
+  "name": "Bookworm",
+  "description": "Jekyll theme for books and creative writing that emphasizes content rather than aesthetic fluff.",
+  "icons": [
+    {
+      "src": "/bookworm/splash-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/bookworm/favicon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/bookworm/",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/bookworm/",
+  "theme_color": "#ffffff"
+}
