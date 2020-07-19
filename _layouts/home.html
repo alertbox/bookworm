@@ -1,20 +1,20 @@
 ---
 layout: default
 ---
-{% assign posts_count = site.chapters | size %}
+{% assign chapters_count = site.chapters | size %}
 
 <div class="home center">
-  {% if posts_count > 0 %}
+  {% if chapters_count > 0 %}
 
     <div class="posts">
-      {% for post in site.chapters %}
+      {% for chapter in site.chapters %}
         <div class="post py3">
           <p class="post-meta">
             #{{ forloop.index }}
       	  </p>
-          <a href="{{ post.url | relative_url }}" class="post-link"><h2 class="post-title caps">{{ post.title }}</h2></a>
+          <a href="{{ chapter.url | relative_url }}" class="post-link"><h2 class="post-title caps">{{ chapter.title }}</h2></a>
           <span class="post-summary justify">
-            {{ post.scene | default: post.summary | default: post.excerpt }}
+            {{ chapter.scene | default: chapter.summary | default: chapter.excerpt }}
           </span>
         </div>
       {% endfor %}

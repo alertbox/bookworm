@@ -8,13 +8,13 @@ layout: null
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
     <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.chapters limit:10 %}
+    {% for chapter in site.chapters limit:10 %}
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>{{ chapter.title | xml_escape }}</title>
+        <description>{{ chapter.summary | default: chapter.scene | xml_escape }}</description>
+        <pubDate>{{ chapter.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ chapter.url | absolute_url }}</link>
+        <guid isPermaLink="true">{{ chapter.url | absolute_url }}</guid>
       </item>
     {% endfor %}
   </channel>
