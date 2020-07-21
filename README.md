@@ -5,7 +5,7 @@
 
 [Bookworm](https://kosalanuwan.github.io/bookworm) is pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices. It is a delightfully lightweight, mobile first, and fluidly responsive Jekyll theme for books and creative writing that emphasizes content rather than aesthetic fluff.
 
-Originally, it was a duplicate of [Pixyll V2.x](https://github.com/johno/pixyll) crafted with :heart:. This repo is also a GitHub Page Template. Check out [the GitHub's Template Repositories](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
+Originally, it was a duplicate of [Pixyll V2 and V3](https://github.com/johno/pixyll) crafted with :heart:. This repo is also a GitHub Page Template. Check out [the GitHub's Template Repositories](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
 
 ![Screenshot](screenshot.png)
 
@@ -45,7 +45,7 @@ You will want to see the [hosted version](https://kosalanuwan.github.io/bookworm
 
 If you're completely new to Jekyll, [Smashing Magazine tutorial on Jekyll](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) is a good source to start with.
 
-[Bookworm](https://kosalanuwan.github.io/bookworm/) was a duplicate of [Pixyll V2.x](https://github.com/johno/pixyll), which provides a fully furnished documentation. See [the Pixyll Usage Guidelines](https://github.com/johno/pixyll#using-github-pages) to learn more.
+[Bookworm](https://kosalanuwan.github.io/bookworm/) was a duplicate of [Pixyll V2 and V3](https://github.com/johno/pixyll), which provides a fully furnished documentation. See [the Pixyll Usage Guidelines](https://github.com/johno/pixyll#using-github-pages) to learn more.
 
 Next, you want to create a copy of this template. The repository is marked as a `Template` so you will only have to [Use This Template](https://github.com/kosalanuwan/bookworm/generate/) and follow the instructions. Read more about this in [the GitHub's Template Repositories](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) document.
 
