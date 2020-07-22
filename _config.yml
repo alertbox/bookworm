@@ -3,8 +3,8 @@ locale: "en-US"
 title: Bookworm
 description: "Jekyll theme for books and creative writing that emphasizes content rather than aesthetic fluff."
 baseurl: "/bookworm"
-url: "http://kosalanuwan.github.io"
-bugs: "https://github.com/kosalanuwan/bookworm/issues/new?assignees=&labels=&template=bug_report.md&title="
+url: "http://alertbox.github.io"
+bugs: "https://github.com/alertbox/bookworm/issues/new?assignees=&labels=&template=bug_report.md&title="
 repository: "/bookworm"
 date_format: "%b %-d, %Y"
 
@@ -75,7 +75,7 @@ sass:
 
 # Use Bookworm gem-based theme
 # - uncomment will use the remote theme instead
-# remote_theme: kosalanuwan/bookworm
+# remote_theme: alertbox/bookworm
 
 plugins:
   - jekyll-feed

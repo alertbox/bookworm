@@ -5,9 +5,9 @@ Welcome! And thank you for your interest in contributing to our project. We use 
 There are many ways in which you can contribute, beyond writing code. Here's a high-level overview of how you can get involved.
 
 - Ask a question on [Stack Overflow]()
-- [Submit bugs and feature requests](https://github.com/kosalanuwan/bookworm/issues), and help us verify as they are checked in
+- [Submit bugs and feature requests](https://github.com/alertbox/bookworm/issues), and help us verify as they are checked in
 - Upvote [popular feature requests]()
-- Review [source code changes](https://github.com/kosalanuwan/bookworm/pulls)
+- Review [source code changes](https://github.com/alertbox/bookworm/pulls)
 - Review the [documentation](README.md) and make pull requests for anything from typos to new content
 
 ## Contributing to Source Code
@@ -74,7 +74,7 @@ To avoid multiple pull requests resolving the same issue, let others know you ar
 
 ### Publishing
 
-At present, the [Bookworm](https://kosalanuwan.github.io/bookworm/) is only published in following platforms: `GitHub Pages`, `Jekyll Remote Theme`.
+At present, the [Bookworm](https://alertbox.github.io/bookworm/) is only published in following platforms: `GitHub Pages`, `Jekyll Remote Theme`.
 
 These `tags` are available: `template | remote_theme`
 

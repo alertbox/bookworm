@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["kosala.nuwan@gmail.com"]
 
   spec.summary       = %q{Theme for books and creative writing that emphasizes content rather than aesthetic fluff.}
-  spec.homepage      = "http://kosalanuwan.github.io/bookworm"
+  spec.homepage      = "http://alertbox.github.io/bookworm"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
