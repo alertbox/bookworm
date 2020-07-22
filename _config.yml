@@ -75,7 +75,8 @@ sass:
 
 # Use Bookworm gem-based theme
 # - uncomment will use the remote theme instead
-# remote_theme: alertbox/bookworm
+# remote_theme: alertbox/jekyll-theme-bookworm
+theme: jekyll-theme-bookworm
 
 plugins:
   - jekyll-feed
@@ -91,7 +92,7 @@ exclude:
   - screenshot.png
   - robots.txt
   - vendor
-  - bookworm.gemspec
+  - '*.gemspec'
   - '*.gem'
   - '*.sh'
 include:
