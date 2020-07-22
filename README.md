@@ -92,6 +92,6 @@ There are many ways in which you can participate in the project. Please see the 
 
 ## License
 
-Copyright (c) Kosala Nuwan Perera. All rights reserved.
+Copyright (c) Alertbox Inc. All rights reserved.
 
 The source code is license under the [MIT License](LICENSE).
