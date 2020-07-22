@@ -3,87 +3,87 @@
   <channel>
     <title>Bookworm</title>
     <description>Jekyll theme for books and creative writing that emphasizes content rather than aesthetic fluff.</description>
-    <link>http://kosalanuwan.github.io/bookworm/</link>
-    <atom:link href="http://kosalanuwan.github.io/bookworm/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://alertbox.github.io/bookworm/</link>
+    <atom:link href="http://alertbox.github.io/bookworm/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Chapter 1</title>
         <description>The Setup</description>
-        <pubDate>Wed, 22 Jul 2020 08:34:08 +0000</pubDate>
-        <link>http://kosalanuwan.github.io/bookworm/chapters/01/</link>
-        <guid isPermaLink="true">http://kosalanuwan.github.io/bookworm/chapters/01/</guid>
+        <pubDate>Wed, 22 Jul 2020 09:23:48 +0000</pubDate>
+        <link>http://alertbox.github.io/bookworm/chapters/01/</link>
+        <guid isPermaLink="true">http://alertbox.github.io/bookworm/chapters/01/</guid>
       </item>
     
       <item>
         <title>Chapter 2</title>
         <description>The Inciting Incident</description>
-        <pubDate>Wed, 22 Jul 2020 08:34:08 +0000</pubDate>
-        <link>http://kosalanuwan.github.io/bookworm/chapters/02/</link>
-        <guid isPermaLink="true">http://kosalanuwan.github.io/bookworm/chapters/02/</guid>
+        <pubDate>Wed, 22 Jul 2020 09:23:48 +0000</pubDate>
+        <link>http://alertbox.github.io/bookworm/chapters/02/</link>
+        <guid isPermaLink="true">http://alertbox.github.io/bookworm/chapters/02/</guid>
       </item>
     
       <item>
         <title>Chapter 3</title>
         <description>Place your scene(s) setting here</description>
-        <pubDate>Wed, 22 Jul 2020 08:34:08 +0000</pubDate>
-        <link>http://kosalanuwan.github.io/bookworm/chapters/03/</link>
-        <guid isPermaLink="true">http://kosalanuwan.github.io/bookworm/chapters/03/</guid>
+        <pubDate>Wed, 22 Jul 2020 09:23:48 +0000</pubDate>
+        <link>http://alertbox.github.io/bookworm/chapters/03/</link>
+        <guid isPermaLink="true">http://alertbox.github.io/bookworm/chapters/03/</guid>
       </item>
     
       <item>
         <title>Chapter 4</title>
         <description>Place your scene(s) setting here</description>
-        <pubDate>Wed, 22 Jul 2020 08:34:08 +0000</pubDate>
-        <link>http://kosalanuwan.github.io/bookworm/chapters/04/</link>
-        <guid isPermaLink="true">http://kosalanuwan.github.io/bookworm/chapters/04/</guid>
+        <pubDate>Wed, 22 Jul 2020 09:23:48 +0000</pubDate>
+        <link>http://alertbox.github.io/bookworm/chapters/04/</link>
+        <guid isPermaLink="true">http://alertbox.github.io/bookworm/chapters/04/</guid>
       </item>
     
       <item>
         <title>Chapter 5</title>
         <description>The First Slap</description>
-        <pubDate>Wed, 22 Jul 2020 08:34:08 +0000</pubDate>
-        <link>http://kosalanuwan.github.io/bookworm/chapters/05/</link>
-        <guid isPermaLink="true">http://kosalanuwan.github.io/bookworm/chapters/05/</guid>
+        <pubDate>Wed, 22 Jul 2020 09:23:48 +0000</pubDate>
+        <link>http://alertbox.github.io/bookworm/chapters/05/</link>
+        <guid isPermaLink="true">http://alertbox.github.io/bookworm/chapters/05/</guid>
       </item>
     
       <item>
         <title>Chapter 6</title>
         <description>The Second Slap Setup</description>
-        <pubDate>Wed, 22 Jul 2020 08:34:08 +0000</pubDate>
-        <link>http://kosalanuwan.github.io/bookworm/chapters/06/</link>
-        <guid isPermaLink="true">http://kosalanuwan.github.io/bookworm/chapters/06/</guid>
+        <pubDate>Wed, 22 Jul 2020 09:23:48 +0000</pubDate>
+        <link>http://alertbox.github.io/bookworm/chapters/06/</link>
+        <guid isPermaLink="true">http://alertbox.github.io/bookworm/chapters/06/</guid>
       </item>
     
       <item>
         <title>Chapter 7</title>
         <description>Place your scene(s) setting here</description>
-        <pubDate>Wed, 22 Jul 2020 08:34:08 +0000</pubDate>
-        <link>http://kosalanuwan.github.io/bookworm/chapters/07/</link>
-        <guid isPermaLink="true">http://kosalanuwan.github.io/bookworm/chapters/07/</guid>
+        <pubDate>Wed, 22 Jul 2020 09:23:48 +0000</pubDate>
+        <link>http://alertbox.github.io/bookworm/chapters/07/</link>
+        <guid isPermaLink="true">http://alertbox.github.io/bookworm/chapters/07/</guid>
       </item>
     
       <item>
         <title>Chapter 8</title>
         <description>Place your scene(s) setting here</description>
-        <pubDate>Wed, 22 Jul 2020 08:34:08 +0000</pubDate>
-        <link>http://kosalanuwan.github.io/bookworm/chapters/08/</link>
-        <guid isPermaLink="true">http://kosalanuwan.github.io/bookworm/chapters/08/</guid>
+        <pubDate>Wed, 22 Jul 2020 09:23:48 +0000</pubDate>
+        <link>http://alertbox.github.io/bookworm/chapters/08/</link>
+        <guid isPermaLink="true">http://alertbox.github.io/bookworm/chapters/08/</guid>
       </item>
     
       <item>
         <title>Chapter 9</title>
         <description>Place your scene(s) setting here</description>
-        <pubDate>Wed, 22 Jul 2020 08:34:08 +0000</pubDate>
-        <link>http://kosalanuwan.github.io/bookworm/chapters/09/</link>
-        <guid isPermaLink="true">http://kosalanuwan.github.io/bookworm/chapters/09/</guid>
+        <pubDate>Wed, 22 Jul 2020 09:23:48 +0000</pubDate>
+        <link>http://alertbox.github.io/bookworm/chapters/09/</link>
+        <guid isPermaLink="true">http://alertbox.github.io/bookworm/chapters/09/</guid>
       </item>
     
       <item>
         <title>Chapter 10</title>
         <description>Place your scene(s) setting here</description>
-        <pubDate>Wed, 22 Jul 2020 08:34:08 +0000</pubDate>
-        <link>http://kosalanuwan.github.io/bookworm/chapters/10/</link>
-        <guid isPermaLink="true">http://kosalanuwan.github.io/bookworm/chapters/10/</guid>
+        <pubDate>Wed, 22 Jul 2020 09:23:48 +0000</pubDate>
+        <link>http://alertbox.github.io/bookworm/chapters/10/</link>
+        <guid isPermaLink="true">http://alertbox.github.io/bookworm/chapters/10/</guid>
       </item>
     
   </channel>

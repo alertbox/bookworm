@@ -1,1 +1,1 @@
-Sitemap: http://kosalanuwan.github.io/bookworm/sitemap.xml
+Sitemap: http://alertbox.github.io/bookworm/sitemap.xml
