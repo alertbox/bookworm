@@ -49,7 +49,14 @@ If you're completely new to Jekyll, [Smashing Magazine tutorial on Jekyll](http:
 
 Next, you want to create a copy of this template. The repository is marked as a `Template` so you will only have to [Use This Template](https://github.com/kosalanuwan/bookworm/generate/) and follow the instructions. Read more about this in [the GitHub's Template Repositories](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) document.
 
-That's it. You now have a Docker-enabled Bookworm repo, and is ready to preview locally.
+### Enable `remote_theme`
+
+It is easier to use Bookworm as your Jekyll theme. You will want to do followings:
+
+- Delete folders: `_includes`, `_layouts`, `_sass`, and `assets`
+- Uncomment `remote_theme` in `_config.yml`.
+
+That's it. You now have a Docker-enabled copy of the Bookworm repo that uses Bookworm Theme, and is ready to preview locally.
 
 ### Preview Locally
 

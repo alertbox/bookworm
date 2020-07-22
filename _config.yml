@@ -72,6 +72,11 @@ markdown:     kramdown
 permalink:    pretty
 sass:
   style: compressed
+
+# Use Bookworm gem-based theme
+# - uncomment will use the remote theme instead
+# remote_theme: kosalanuwan/bookworm
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
