@@ -53,8 +53,23 @@ Next, you want to create a copy of this template. The repository is marked as a 
 
 It is easier to use Bookworm as your Jekyll theme. You will want to do followings:
 
-- Delete folders: `_includes`, `_layouts`, `_sass`, and `assets`
-- Uncomment `remote_theme` in `_config.yml`.
+- Enable remote theme in `_config.yml`.
+  ```yml
+  # _config.yml
+  remote_theme: alertbox/bookworm
+  plugins:
+    - jekyll-remote-theme
+  ```
+- Add jekyll plugins in `Gemfile` to support remote theme
+  ```ruby
+  # Gemfile
+  group :jekyll_plugins do
+  gem 'github-pages'
+  gem 'jekyll-remote-theme'
+  # ... any other plugins as you wish
+  end
+  ```
+- Clean up unwanted files and folders: `_includes`, `_layouts`, `_sass`, and `assets`
 
 That's it. You now have a Docker-enabled copy of the Bookworm repo that uses Bookworm Theme, and is ready to preview locally.
 

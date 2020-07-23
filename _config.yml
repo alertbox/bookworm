@@ -5,7 +5,6 @@ description: "Jekyll theme for books and creative writing that emphasizes conten
 baseurl: "/bookworm"
 url: "http://alertbox.github.io"
 bugs: "https://github.com/alertbox/bookworm/issues/new?assignees=&labels=&template=bug_report.md&title="
-repository: "/bookworm"
 date_format: "%b %-d, %Y"
 
 # Site author
@@ -73,12 +72,8 @@ permalink:    pretty
 sass:
   style: compressed
 
-# Use Bookworm gem-based theme
-# - uncomment will use the remote theme instead
-# remote_theme: alertbox/jekyll-theme-bookworm
-theme: jekyll-theme-bookworm
-
 plugins:
+  - github-pages
   - jekyll-feed
   - jekyll-sitemap
     
