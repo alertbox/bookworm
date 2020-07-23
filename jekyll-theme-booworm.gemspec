@@ -16,7 +16,8 @@ Gem::Specification.new do |spec|
     f.match(%r{^(_layouts|_includes|_sass|LICENSE|README)/i})
   end
 
-  spec.add_runtime_dependency "jekyll-feed", "~> 0.9"
+  spec.add_runtime_dependency 'jekyll-feed'
+  spec.add_runtime_dependency 'jekyll-sitemap'
   spec.add_development_dependency 'jekyll'
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake'
