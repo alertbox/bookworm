@@ -81,6 +81,7 @@ theme: jekyll-theme-bookworm
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+    
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:
   - Gemfile
