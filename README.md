@@ -69,7 +69,10 @@ It is easier to use Bookworm as your Jekyll theme. You will want to do following
   # ... any other plugins as you wish
   end
   ```
-- Clean up unwanted files and folders: `_includes`, `_layouts`, `_sass`, and `assets`
+- Clean up unwanted files and folders
+  ```bash
+  rm -rf _includes _layouts _sass assets
+  ```
 
 That's it. You now have a Docker-enabled copy of the Bookworm repo that uses Bookworm Theme, and is ready to preview locally.
 
