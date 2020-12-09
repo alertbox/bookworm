@@ -1,0 +1,8 @@
+url: http://localhost:8004
+baseurl: ""
+repository: alertbox/bookworm
+
+# Build settings
+show_drafts: true
+future: true
+unpublished: true

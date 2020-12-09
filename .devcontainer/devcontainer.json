@@ -1,0 +1,40 @@
+{
+    "name": "bookworm",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "website",
+    "workspaceFolder": "/workspace",
+    // Set *default* container specific settings.json values on container create.
+    "settings": {
+        // If you are using an Alpine-based image, change this to /bin/ash
+        "terminal.integrated.shell.linux": "/bin/zsh"
+    },
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+        "ms-azuretools.vscode-docker",
+
+        "ritwickdey.liveserver",
+        "davidanson.vscode-markdownlint",
+        "ms-vscode.wordcount",
+        
+		"editorconfig.editorconfig",
+		"esbenp.prettier-vscode",
+		"streetsidesoftware.code-spell-checker",
+		"redhat.fabric8-analytics",
+        "redhat.vscode-yaml",
+    ],
+    
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    "forwardPorts": [4000],
+    // Uncomment to run commands after the container is created - requires a Gemfile
+    "postCreateCommand": "zsh .devcontainer/post-create.zsh",
+
+    // Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
+    // "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
+    // Uncomment when using a ptrace-based debugger like C++, Go, and Rust
+    // "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
+    // Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+    "remoteUser": "vscode",
+    // Uncomment to indicates whether VS Code should stop the containers when the VS Code window is closed / shut down. Values are "none" and "stopCompose" (default).
+    "shutdownAction": "stopCompose",
+}
