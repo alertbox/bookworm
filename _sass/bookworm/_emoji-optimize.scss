@@ -1,0 +1,34 @@
+@charset 'UTF-8';
+
+/*
+ * Jemoji optimize
+ * https: //github.com/jekyll/jemoji/issues/92
+ */
+
+h1 {
+    img.emoji {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+h2 {
+    img.emoji {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+h3 {
+    img.emoji {
+        width: 1.125rem;
+        height: 1.125rem;
+    }
+}
+
+img.emoji {
+    vertical-align: -.075em;
+    display: unset;
+    margin: unset;
+    border-radius: unset;
+}
