@@ -1,3 +1,11 @@
+text:
+  pagination:
+    next: "Next"
+    previous: "Previous"
+  index:
+    title: "Chapters"
+    coming_soon: "A work in-progress..."
+
 top:
   - title: Prologue
     url: /prologue/

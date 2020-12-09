@@ -1,0 +1,24 @@
+title: Bookworm
+tagline: >-
+  @kosalanuwan's version of how it all should have happened!
+description: >- # tagline can be a bit lengthy sometimes
+  Jekyll theme for books and creative writing that emphasizes content rather than aesthetic fluff.
+
+bugs: "https://github.com/alertbox/bookworm/issues/new?assignees=&labels=&template=bug_report.md&title="
+date_format: "%b %-d, %Y"
+
+# Feature flags
+show_post_meta: true
+show_social_links: true
+    
+# Site author
+author: 
+  name: Kosala Nuwan Perera
+  avatar: https://avatars1.githubusercontent.com/u/958227?s=460&u=9b166f138e17fd8a8a60177dbbaa79deff890ac6&v=4
+  email: kosala.nuwan@gmail.com
+  # Social
+  public_site: https://kosalanuwan.github.io
+  github: kosalanuwan
+  twitter: kosalanuwan
+  linkedin: kosalanuwan
+  blog: kosalanuwan

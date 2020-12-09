@@ -2,9 +2,9 @@
 layout: null
 ---
 {
-  "short_name": "{{ site.title | replace: '"', '\"' }}",
-  "name": "{{ site.title | replace: '"', '\"' }}",
-  "description": "{{ site.description | replace: '"', '\"' }}",
+  "short_name": "{{ site.data.website.title | replace: '"', '\"' }}",
+  "name": "{{ site.data.website.title | replace: '"', '\"' }}",
+  "description": "{{ site.data.website.description | replace: '"', '\"' }}",
   "icons": [
     {
       "src": "{{ '/splash-512x512.png' | relative_url }}",

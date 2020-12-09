@@ -5,16 +5,16 @@
   <div class="pagination clearfix mb1 mt4">
     <div class="left">
       {% if page.previous %}
-      <a class="pagination-item" href="{{ page.previous.url | relative_url }}">{{ site.text.pagination.previous }}</a>
+      <a class="pagination-item" href="{{ page.previous.url | relative_url }}">{{ site.data.navigation.text.pagination.previous }}</a>
       {% else %}
-      <span class="pagination-item disabled">{{ site.text.pagination.previous }}</span>
+      <span class="pagination-item disabled">{{ site.data.navigation.text.pagination.previous }}</span>
       {% endif %}
     </div>
     <div class="right">
       {% if page.next %}
-      <a class="pagination-item" href="{{ page.next.url | relative_url }}">{{ site.text.pagination.next }}</a>
+      <a class="pagination-item" href="{{ page.next.url | relative_url }}">{{ site.data.navigation.text.pagination.next }}</a>
       {% else %}
-      <span class="pagination-item disabled">{{ site.text.pagination.next }}</span>
+      <span class="pagination-item disabled">{{ site.data.navigation.text.pagination.next }}</span>
       {% endif %}
     </div>
   </div>
