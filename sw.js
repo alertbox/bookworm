@@ -4,7 +4,7 @@ self.addEventListener("install", function(e) {
   e.waitUntil(
     caches.open(CACHE_NAME).then(function(cache) {
       return cache.addAll([
-        "/bookworm/assets/css/main.css?202012091630",
+        "/bookworm/assets/css/main.css?202012102033",
         "/bookworm/"
       ]);
     })
