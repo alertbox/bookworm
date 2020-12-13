@@ -76,18 +76,15 @@ Then, you launch your favorite browser and visit <https://localhost:8004/bookwor
 ## Feedback
 We would love for you to give all sorts of feedback. Here are the ways you can provide feedback:
 
-- Ask a question on [Stack Overflow]()
 - [Request a new feature](https://github.com/alertbox/bookworm/issues/new?assignees=&labels=&template=feature_request.md&title=)
 - Upvote [popular feature requests](https://github.com/alertbox/bookworm/issues)
 - [Report an issue](https://github.com/alertbox/bookworm/issues/new?assignees=&labels=&template=bug_report.md&title=)
 - Follow [@alertboxinc](https://twitter.com/alertboxinc) and let me know what you think!
 
 ## Contributing
-
 There are many ways in which you can participate in the project. Please see the document [How to Contribute](CONTRIBUTING.md).
 
 ## License
-
-Copyright (c) Alertbox Inc. All rights reserved.
+Copyright :copyright: Alertbox Inc. All rights reserved.
 
 The source code is license under the [MIT License](LICENSE).
