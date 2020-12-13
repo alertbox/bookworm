@@ -29,9 +29,9 @@ Originally, it was a duplicate of [Pixyll V2 and V3](https://github.com/johno/pi
 - Powered by Jekyll and VS Code Remote - Containers
 
 ## Requirements
-See the @kosalanuwan/devcontainer repository to get started at the most basic level:
+See [@kosalanuwan/devcontainers](https://github.com/kosalanuwan/devcontainers) repository to get started at the most basic level, and:
 
-- [Markdown](https://guides.github.com/features/mastering-markdown/), the lightweight and easy-to-use syntax for all forms of writing on GitHub platform.
+- A [Markdown](https://guides.github.com/features/mastering-markdown/) editor, the lightweight and easy-to-use syntax for all forms of writing on GitHub platform.
 
 ## Use This Theme
 If you're completely new to Jekyll, [Smashing Magazine tutorial on Jekyll](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) is a good source to start with.
@@ -71,7 +71,10 @@ With VS Code:
 - Run task: `build` to clean build and generate the static site
 - Run task: `live-serve` to preview locally
 
-Then, you launch your favorite browser and visit <https://localhost:8004/bookworm/>.
+Then, you launch your favorite browser and visit [localhost:8004/bookworm/](http://localhost:8004/bookworm/).
+
+## Contributing
+There are many ways in which you can participate in the project. Please see the document [How to Contribute](CONTRIBUTING.md).
 
 ## Feedback
 We would love for you to give all sorts of feedback. Here are the ways you can provide feedback:
@@ -80,9 +83,6 @@ We would love for you to give all sorts of feedback. Here are the ways you can p
 - Upvote [popular feature requests](https://github.com/alertbox/bookworm/issues)
 - [Report an issue](https://github.com/alertbox/bookworm/issues/new?assignees=&labels=&template=bug_report.md&title=)
 - Follow [@alertboxinc](https://twitter.com/alertboxinc) and let me know what you think!
-
-## Contributing
-There are many ways in which you can participate in the project. Please see the document [How to Contribute](CONTRIBUTING.md).
 
 ## License
 Copyright :copyright: Alertbox Inc. All rights reserved.
