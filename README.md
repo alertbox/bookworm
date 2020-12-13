@@ -29,17 +29,12 @@ Originally, it was a duplicate of [Pixyll V2 and V3](https://github.com/johno/pi
 - Powered by Jekyll and VS Code Remote - Containers
 
 ## Requirements
-First, you will need followings to get started at the most basic level:
+See the @kosalanuwan/devcontainer repository to get started at the most basic level:
 
-- [VS Code with extension Remote - Container](https://github.com/kosalanuwan/devcontainers/#readme) for the minimum container requirements
-- [Markdown](https://guides.github.com/features/mastering-markdown/), the lightweight and easy-to-use syntax for all forms of writing on GitHub platform
+- [Markdown](https://guides.github.com/features/mastering-markdown/), the lightweight and easy-to-use syntax for all forms of writing on GitHub platform.
 
-You will want to see the [hosted version](https://alertbox.github.io/bookworm/) to have a feel of the most basic level.
-
-## Using This Theme
+## Use This Theme
 If you're completely new to Jekyll, [Smashing Magazine tutorial on Jekyll](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) is a good source to start with.
-
-[Bookworm](https://alertbox.github.io/bookworm/) was a duplicate of [Pixyll V2 and V3](https://github.com/johno/pixyll), which provides a fully furnished documentation. See [the Pixyll Usage Guidelines](https://github.com/johno/pixyll#using-github-pages) to learn more.
 
 Next, you want to create a copy of this template. The repository is marked as a `Template` so you will only have to [Use This Template](https://github.com/alertbox/bookworm/generate/) and follow the instructions. Read more about this in [the GitHub's Template Repositories](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) document.
 
