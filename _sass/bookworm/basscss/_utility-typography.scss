@@ -36,3 +36,12 @@
 .nowrap {
   white-space: nowrap;
 }
+
+.drop-cap::first-letter {
+    font-family: $drop-cap-font-family;
+    font-size: 5em;
+    text-transform: capitalize;
+    float: left;
+    padding-right: .2rem;
+    line-height: 4.5rem;
+}
