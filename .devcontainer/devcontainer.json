@@ -25,7 +25,7 @@
     ],
     
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
-    "forwardPorts": [4000],
+    "forwardPorts": [8004],
     // Uncomment to run commands after the container is created - requires a Gemfile
     "postCreateCommand": "zsh .devcontainer/post-create.zsh",
 

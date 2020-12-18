@@ -1,5 +1,5 @@
-url: http://localhost:8004
-baseurl: ""
+port: 8004
+url: http://localhost
 repository: alertbox/bookworm
 
 # Build settings
