@@ -6,3 +6,5 @@ repository: alertbox/bookworm
 show_drafts: true
 future: true
 unpublished: true
+
+github: [metadata]
